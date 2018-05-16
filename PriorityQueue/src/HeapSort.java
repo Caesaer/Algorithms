@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 public class HeapSort {
     public void Sort(Integer[] arr){
         MaxPQ maxPQ = new MaxPQ<>(arr);
@@ -30,5 +30,4 @@ public class HeapSort {
     }
 }
 
->>>>>>> 9d36d9b47da260059984a4f0fafce666ea282590
 //堆排序需要注意在最大顶构建完毕后每一次sink操作需要实时更新堆的大小，将已经输出的最大顶剔除到顶外。
